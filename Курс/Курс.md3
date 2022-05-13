@@ -1,1 +1,20 @@
+class Main {
+  public static void main(String[] args) {
+int[] iNumbers;
+    iNumbers = new int[10];
+    int i;
+    for(i = 0; i < 10; i++)
+  iNumbers[i] = i;
+    System.out.print("iNumbers: [" 
+  + iNumbers[0]); 
+    
+for(i = 1; i < iNumbers.length; i++)
+  System.out.print("," + iNumbers[i]); 
+      
+System.out.println("]");
+  }
+
+}
+
+![Screenshot (117)](https://user-images.githubusercontent.com/97594123/160650687-611d8118-0393-4c47-8173-ace8a19ea70d.png)
 
